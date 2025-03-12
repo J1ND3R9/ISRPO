@@ -1,0 +1,151 @@
+----------------------------------
+Screen size: 1920x1080
+OpenGL version: 3.1.12618 Core Profile Forward-Compatible Context 13.251.0.0
+OpenGL renderer: AMD Radeon HD 7800 Series
+OpenGL vendor: ATI Technologies Inc.
+shader .\shaders\test_gui.vs:
+Shader error!
+Vertex shader failed to compile with the following errors:
+ERROR: error(#272) Implicit version number 110 not supported by GL3 forward compatible context
+ERROR: error(#273) 1 compilation errors.  No code generated
+
+
+shader .\shaders\test_gui.fs:
+Shader error!
+Fragment shader failed to compile with the following errors:
+ERROR: error(#272) Implicit version number 110 not supported by GL3 forward compatible context
+ERROR: error(#273) 1 compilation errors.  No code generated
+
+
+linking:
+Program error!
+Vertex and Fragment shader(s) were not successfully compiled before glLinkProgram() was called.  Link failed. 
+
+validation:
+Program error!
+Vertex and Fragment shader(s) were not successfully compiled before glLinkProgram() was called.  Link failed. 
+
+shader .\shaders\render.vs:
+Shader error!
+Vertex shader failed to compile with the following errors:
+ERROR: error(#272) Implicit version number 110 not supported by GL3 forward compatible context
+ERROR: error(#273) 1 compilation errors.  No code generated
+
+
+shader .\shaders\render.fs:
+Shader error!
+Fragment shader failed to compile with the following errors:
+ERROR: error(#272) Implicit version number 110 not supported by GL3 forward compatible context
+ERROR: error(#273) 1 compilation errors.  No code generated
+
+
+linking:
+Program error!
+Vertex and Fragment shader(s) were not successfully compiled before glLinkProgram() was called.  Link failed. 
+
+validation:
+Program error!
+Vertex and Fragment shader(s) were not successfully compiled before glLinkProgram() was called.  Link failed. 
+
+shader .\shaders\render_lines.vs:
+Shader error!
+Vertex shader failed to compile with the following errors:
+ERROR: error(#272) Implicit version number 110 not supported by GL3 forward compatible context
+ERROR: error(#273) 1 compilation errors.  No code generated
+
+
+shader .\shaders\render_lines.fs:
+Shader error!
+Fragment shader failed to compile with the following errors:
+ERROR: error(#272) Implicit version number 110 not supported by GL3 forward compatible context
+ERROR: error(#273) 1 compilation errors.  No code generated
+
+
+linking:
+Program error!
+Vertex and Fragment shader(s) were not successfully compiled before glLinkProgram() was called.  Link failed. 
+
+validation:
+Program error!
+Vertex and Fragment shader(s) were not successfully compiled before glLinkProgram() was called.  Link failed. 
+
+shader .\shaders\quad.vs:
+Shader error!
+Vertex shader failed to compile with the following errors:
+ERROR: error(#272) Implicit version number 110 not supported by GL3 forward compatible context
+ERROR: error(#273) 1 compilation errors.  No code generated
+
+
+shader .\shaders\integrate.fs:
+Shader error!
+Fragment shader failed to compile with the following errors:
+ERROR: error(#272) Implicit version number 110 not supported by GL3 forward compatible context
+ERROR: error(#273) 1 compilation errors.  No code generated
+
+
+linking:
+Program error!
+Vertex and Fragment shader(s) were not successfully compiled before glLinkProgram() was called.  Link failed. 
+
+validation:
+Program error!
+Vertex and Fragment shader(s) were not successfully compiled before glLinkProgram() was called.  Link failed. 
+
+shader .\shaders\quad.vs:
+Shader error!
+Vertex shader failed to compile with the following errors:
+ERROR: error(#272) Implicit version number 110 not supported by GL3 forward compatible context
+ERROR: error(#273) 1 compilation errors.  No code generated
+
+
+shader .\shaders\select_target.fs:
+Shader error!
+Fragment shader failed to compile with the following errors:
+ERROR: error(#272) Implicit version number 110 not supported by GL3 forward compatible context
+ERROR: error(#273) 1 compilation errors.  No code generated
+
+
+linking:
+Program error!
+Vertex and Fragment shader(s) were not successfully compiled before glLinkProgram() was called.  Link failed. 
+
+validation:
+Program error!
+Vertex and Fragment shader(s) were not successfully compiled before glLinkProgram() was called.  Link failed. 
+
+shader .\shaders\damage.vs:
+Shader error!
+Vertex shader failed to compile with the following errors:
+ERROR: error(#272) Implicit version number 110 not supported by GL3 forward compatible context
+ERROR: error(#273) 1 compilation errors.  No code generated
+
+
+shader .\shaders\damage.fs:
+Shader error!
+Fragment shader failed to compile with the following errors:
+ERROR: error(#272) Implicit version number 110 not supported by GL3 forward compatible context
+ERROR: error(#273) 1 compilation errors.  No code generated
+
+
+linking:
+Program error!
+Vertex and Fragment shader(s) were not successfully compiled before glLinkProgram() was called.  Link failed. 
+
+validation:
+Program error!
+Vertex and Fragment shader(s) were not successfully compiled before glLinkProgram() was called.  Link failed. 
+
+FPS: 1
+FPS: 256
+FPS: 3675
+FPS: 3659
+FPS: 3168
+FPS: 2677
+FPS: 2737
+FPS: 2737
+FPS: 2737
+FPS: 2738
+FPS: 2731
+FPS: 2714
+FPS: 1
+FPS: 307
