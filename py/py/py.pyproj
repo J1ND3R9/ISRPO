@@ -1,0 +1,100 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>7bf0d9ad-e0cf-4170-ab52-f057625b5f9c</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>Quest 7\quest1.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>py</Name>
+    <RootNamespace>py</RootNamespace>
+    <IsWindowsApplication>False</IsWindowsApplication>
+    <TestFramework>Pytest</TestFramework>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Quest 10\quest1.py" />
+    <Compile Include="Quest 10\quest2.py" />
+    <Compile Include="Quest 10\quest3.py" />
+    <Compile Include="Quest 10\quest4.py" />
+    <Compile Include="Quest 11\quest1.py" />
+    <Compile Include="Quest 11\quest2.py" />
+    <Compile Include="Quest 11\quest3.py" />
+    <Compile Include="Quest 11\quest_add.py" />
+    <Compile Include="Quest 11\quest4.py" />
+    <Compile Include="Quest 12\quest5.py" />
+    <Compile Include="Quest 12\quest1.py" />
+    <Compile Include="Quest 12\quest8.py" />
+    <Compile Include="Quest 12\quest2.py" />
+    <Compile Include="Quest 12\quest7.py" />
+    <Compile Include="Quest 12\quest3.py" />
+    <Compile Include="Quest 12\quest6.py" />
+    <Compile Include="Quest 12\quest4.py" />
+    <Compile Include="Quest 13\quest1.py" />
+    <Compile Include="Quest 13\quest2.py" />
+    <Compile Include="Quest 13\quest3.py" />
+    <Compile Include="Quest 13\quest4.py" />
+    <Compile Include="Quest 14\quest1.py" />
+    <Compile Include="Quest 14\quest2.py" />
+    <Compile Include="Quest 14\quest3.py" />
+    <Compile Include="Quest 15\main.py" />
+    <Compile Include="Quest 15\test.py" />
+    <Compile Include="Quest 4\quest5.py" />
+    <Compile Include="Quest 4\quest4.py" />
+    <Compile Include="Quest 4\quest3.py" />
+    <Compile Include="Quest 4\quest2.py" />
+    <Compile Include="Quest 4\quest1.py" />
+    <Compile Include="Quest 5\quest1.py" />
+    <Compile Include="Quest 6\quest1.py" />
+    <Compile Include="Quest 6\quest2.py" />
+    <Compile Include="Quest 6\quest3.py" />
+    <Compile Include="Quest 7\quest1.py" />
+    <Compile Include="Quest 9\quest1.py" />
+    <Compile Include="Quest 8\quest1.py" />
+    <Compile Include="Quest 8\quest2.py" />
+    <Compile Include="Quest 8\quest3.py" />
+    <Compile Include="Quest 8\quest4.py" />
+    <Compile Include="Quest 8\quest5.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Quest 16\" />
+    <Folder Include="Quest 15\" />
+    <Folder Include="Quest 14\" />
+    <Folder Include="Quest 13\" />
+    <Folder Include="Quest 12\" />
+    <Folder Include="Quest 10\" />
+    <Folder Include="Quest 11\" />
+    <Folder Include="Quest 9\" />
+    <Folder Include="Quest 8\" />
+    <Folder Include="Quest 7\" />
+    <Folder Include="Quest 6\" />
+    <Folder Include="Quest 5\" />
+    <Folder Include="Quest 4\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Quest 12\log.txt" />
+    <Content Include="Quest 16\index.html" />
+    <Content Include="Quest 16\just_fish.gif" />
+    <Content Include="Quest 16\logo.png" />
+    <Content Include="Quest 6\recepts.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

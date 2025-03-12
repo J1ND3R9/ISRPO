@@ -1,0 +1,60 @@
+Shader error!
+Vertex shader failed to compile with the following errors:
+ERROR: error(#272) Implicit version number 110 not supported by GL3 forward compatible context
+ERROR: error(#273) 1 compilation errors.  No code generated
+Shader error!
+Fragment shader failed to compile with the following errors:
+ERROR: error(#272) Implicit version number 110 not supported by GL3 forward compatible context
+ERROR: error(#273) 1 compilation errors.  No code generated
+Program error!
+Program error!
+Shader error!
+Vertex shader failed to compile with the following errors:
+ERROR: error(#272) Implicit version number 110 not supported by GL3 forward compatible context
+ERROR: error(#273) 1 compilation errors.  No code generated
+Shader error!
+Fragment shader failed to compile with the following errors:
+ERROR: error(#272) Implicit version number 110 not supported by GL3 forward compatible context
+ERROR: error(#273) 1 compilation errors.  No code generated
+Program error!
+Program error!
+Shader error!
+Vertex shader failed to compile with the following errors:
+ERROR: error(#272) Implicit version number 110 not supported by GL3 forward compatible context
+ERROR: error(#273) 1 compilation errors.  No code generated
+Shader error!
+Fragment shader failed to compile with the following errors:
+ERROR: error(#272) Implicit version number 110 not supported by GL3 forward compatible context
+ERROR: error(#273) 1 compilation errors.  No code generated
+Program error!
+Program error!
+Shader error!
+Vertex shader failed to compile with the following errors:
+ERROR: error(#272) Implicit version number 110 not supported by GL3 forward compatible context
+ERROR: error(#273) 1 compilation errors.  No code generated
+Shader error!
+Fragment shader failed to compile with the following errors:
+ERROR: error(#272) Implicit version number 110 not supported by GL3 forward compatible context
+ERROR: error(#273) 1 compilation errors.  No code generated
+Program error!
+Program error!
+Shader error!
+Vertex shader failed to compile with the following errors:
+ERROR: error(#272) Implicit version number 110 not supported by GL3 forward compatible context
+ERROR: error(#273) 1 compilation errors.  No code generated
+Shader error!
+Fragment shader failed to compile with the following errors:
+ERROR: error(#272) Implicit version number 110 not supported by GL3 forward compatible context
+ERROR: error(#273) 1 compilation errors.  No code generated
+Program error!
+Program error!
+Shader error!
+Vertex shader failed to compile with the following errors:
+ERROR: error(#272) Implicit version number 110 not supported by GL3 forward compatible context
+ERROR: error(#273) 1 compilation errors.  No code generated
+Shader error!
+Fragment shader failed to compile with the following errors:
+ERROR: error(#272) Implicit version number 110 not supported by GL3 forward compatible context
+ERROR: error(#273) 1 compilation errors.  No code generated
+Program error!
+Program error!

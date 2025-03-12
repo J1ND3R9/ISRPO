@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>БиблиотеБка | Главная </title>
+    <link rel="stylesheet" href="/assets/styles/main.css">
+  </head>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      color: rgb(55, 77, 156);
+      background-color: rgb(208, 215, 255);
+    }
+
+    h1 {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    header {
+      background-color: rgb(54, 73, 139);
+      height: 110px;
+      color: rgb(250, 223, 249);
+      box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.6);
+      display: flex;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      margin: 0;
+      padding: 0;
+      
+      text-shadow: 0px 0px 20px black;
+      font-size: 27pt;
+    }
+
+    header p {
+      margin: 0.3px;
+      font-family:Arial, Helvetica, sans-serif;
+      font-size: 14pt;
+    }
+
+    .logo {
+      margin: 0;
+      padding: 1%;
+      padding-left: 2.1%;
+    }
+
+    .navigation a {
+      text-decoration: none;
+      color: rgb(229, 190, 247);
+      margin: 20px;
+      transition: 0.2s;
+      font-size: 16pt;
+    }
+
+    .navigation a:hover {
+       text-shadow: 0px 5px 20px black;
+       font-size: 17pt;
+    }
+
+    .navigation {
+      display: flex;
+      align-items: center;
+      margin-right: 30px;
+    }
+
+    .navigation input {
+      height: 40px;
+      border: 3px, solid;
+      border-radius: 6px;
+      border-color: rgb(124, 114, 255);
+      transition: 0.2s;
+      outline: none;
+      background-color: rgb(220, 220, 255);
+      width: 800px;
+      font-size: 14pt;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    .navigation input:focus {
+      border-color: rgb(179, 113, 255);
+    }
+
+    .authors {
+      margin: 40px;
+    }
+
+    .authors h1 {
+      font-size: 46pt;
+      margin: 0px;
+      padding: 0px;
+    }
+
+    .authors a {
+      text-decoration: none;
+      color: rgb(54, 73, 139);
+      transition: 0.2s;
+    }
+
+    .authors a:hover {
+      font-size: 49pt;
+    }
+
+    
+    .authors_interesting {
+      display: flex;
+      justify-content: space-between;
+      width: 30%;
+    }
+
+    .authors_interesting a:hover {
+      font-size: 15pt;
+    }
+
+    .authors_template {
+      padding: 10px;
+      border-radius: 10px;
+      display: flex;
+      background-color: rgb(54, 73, 139);
+      width: 800px;
+      height: 250px;
+      color: rgb(208, 215, 255);;
+    }
+
+    .authors_template h1 {
+      margin: 0px;
+      margin-left: 12px;
+      font-size: 38pt;
+    }
+
+    .authors_template h2 {
+      font-size:xx-large;
+      margin: 3px;
+      margin-left: 15px;
+      margin-top: 0px;
+      margin-bottom: 20px;
+    }
+
+    .authors_template p {
+      margin: 4px;
+      margin-left: 17px;
+      word-wrap: break-word;
+      width: 540px;
+      font-size: 14pt;
+      height: 30px;
+    }
+
+    .authors_template img{
+      height: 260px;
+      position: absolute;
+      margin-left: 560px;
+      clip-path: circle();
+    }
+
+    .authors_grid {
+      display: grid;
+      grid-template-columns: 50% auto;
+      grid-template-rows: repeat(1, 300px);
+    }
+  </style>
+
+  <body>
+    <header>
+      <div class="logo">
+        <h1>БиблиотеБка.</h1>
+        <p>Лучшее — здесь.</p>
+      </div>
+
+      <div class="navigation">
+        <input type="text" placeholder="Поиск"/>
+        <p><a href="">Стать автором</a></p>
+        <p><a href="">Информация</a></p>
+        <p><a href="">Поддержка</a></p>
+      </div>
+    </header>
+
+    <div class="authors">
+      <h1><a href=""">Авторы</a></h1>
+      <div class="authors_interesting">
+        <p><a href=""">Топ 250 авторов</a></p>
+        <p><a href="">Эпичные авторы</a></p>
+        <p><a href="">Неизвестные таланты</a></p>
+        <p><a href="">Юные писатели</a></p>
+      </div>
+      <div class="authors_grid">
+        <div class="authors_template">
+          <div>
+            <h1>Михаил Булгаков</h1>
+            <h2>Мастер и Маргарита</h2>
+            <p>Мастер слова, чьи произведения проникают в самые глубины человеческой души. Его знаменитый роман "Мастер и Маргарита" — это не просто книга, а настоящее путешествие в мир магии, философии и вечной любви. Булгаков умеет сочетать реализм с фантастикой, создавая уникальные и незабываемые истории.</p>
+          </div>
+          <img src="/data/bulgakov.png"/>
+        </div>
+        <div class="authors_template">
+          <div>
+            <h1>Сергей Есенин</h1>
+            <h2>Исповедь Хулигана</h2>
+            <p>Поэт, чья лирика пропитана любовью к родной земле и глубокими человеческими чувствами. Его стихи — это песни души, которые трогают до глубины сердца. Есенин умел передавать красоту русской природы и сложности человеческих отношений с неповторимой искренностью и простотой.</p>
+          </div>
+          <img src="/data/esenin.png"/>
+        </div>
+        <div class="authors_template">
+          <div>
+            <h1>Александр Пушкин</h1>
+            <h2>Евгений Онегин</h2>
+            <p>Основатель современного русского языка и величайший поэт России. Его произведения, такие как "Евгений Онегин" и "Капитанская дочка", стали классикой мировой литературы. Пушкин умел сочетать романтику с реализмом, создавая образы, которые остаются в памяти навсегда.</p>
+          </div>
+          <img src="/data/pushkin.png"/>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
